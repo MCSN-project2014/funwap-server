@@ -11,6 +11,6 @@
 - ####Linux:
 
 
-###Start the Server
+###Start the Server:
 - ####Windows:
   - run in the cmd.exe the StartServer.bat file
