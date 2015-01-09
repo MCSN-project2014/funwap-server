@@ -2,15 +2,15 @@
 
 
 ###How Install:
+- ####Windows:
+  - Install python 2.7
+  - add `C:\Python27;C:\Python27\Script` in the System PATH ambient variable
+  - open the cmd.exe and run the InstallServer.bat script
 
-###Windows:
-- Install python 2.7
-- add `C:\Python27;C:\Python27\Script` in the System PATH ambient variable
-- open the cmd.exe and run the InstallServer.bat script
 
-
-###Linux:
+- ####Linux:
 
 
 ###Start the Server
-- run in the cmd.exe the StartServer.bat file
+- ####Windows:
+  - run in the cmd.exe the StartServer.bat file
