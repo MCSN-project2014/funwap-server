@@ -8,8 +8,7 @@
   - open the cmd.exe and run the InstallServer.bat script
 
 
-- ####Linux:
-
+- ####Linux
 
 ###Start the Server:
 - ####Windows:
