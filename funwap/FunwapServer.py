@@ -7,6 +7,7 @@ import platform
 
 app = Flask(__name__)
 
+
 @app.route('/', methods=['POST', 'GET'])
 def main():
     if request.method == 'POST':
@@ -26,7 +27,7 @@ def main():
             comand = ['bin\\funwaps.exe', data[0], data[1]]
 
         try:
-            p = subprocess.Popen(comand,stdout=subprocess.PIPE,stderr=subprocess.PIPE)
+            p = subprocess.Popen(comand, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
             out, err = p.communicate(timeout=30)
             err = err.decode('utf-8')
             out = out.decode('utf-8')
