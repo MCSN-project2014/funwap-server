@@ -1,10 +1,12 @@
 @-webkit-keyframes pulsate {
-  0% {-webkit-transform: scale(0.1, 0.1); opacity: 0.0;}
-  50% {opacity: 1.0;}
-  100% {-webkit-transform: scale(1.2, 1.2); opacity: 0.0;}
+  0% {-webkit-transform: scale(0.4, 0.4); opacity: 0.8;}
+  25% {-webkit-transform: scale(1, 1); opaticy : 1;}
+  100% {-webkit-transform: scale(0.4, 0.4); opacity: 0.8;}
 }
 
 .pulse{
   -webkit-animation: pulsate 1s ease-out;
-  -webkit-animation-iteration-count: infinite; 
+  -webkit-animation-iteration-count: infinite;
+  text-align: center;
+  font-size: 30pt;
 }
