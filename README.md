@@ -1,5 +1,5 @@
 ![alt text](public/fun_logo.jpg)
-# Funwap dasync Server
+#funW@p dasync Server
 This is the the funwap dasync server, for execute remote code send from the funwap dasync command by the interpreter or the compiler. The server is write in python and c#, with Flask micro-framework and .NET 4.5. The server receive a json with the code and the parameter of the function that have to be executed, and the server execute the c# interpreter to get the result and send back to the client. 
 
 ###Installation Instruction:
@@ -19,3 +19,8 @@ The following guide have to be adopted only to try or debug the funwap server. T
     - `source venv/bin/activate`
     - `pip install -r requirements.txt`
   - now you can start the sever with the command `python run.py`, to close the virtualenv do the command `deactivate`
+
+
+##Requirement
+- python 3.2+
+- mono 3+ or .NET 4.5
