@@ -19,3 +19,8 @@ The following guide have to be adopted only to try or debug the funwap server. T
     - `source venv/bin/activate`
     - `pip install -r requirements.txt`
   - now you can start the sever with the command `python run.py`, to close the virtualenv do the command `deactivate`
+
+
+##Requirement
+- python 3.2+
+- mono 3+ or .NET 4.5
